@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-bottom: 20px;
+    box-shadow: 0 7px 5px #5b665e;
+}
+.carousel {
+    height: 90vh;
+}
+
+.carousel > .carousel-inner img {
+    height: 90vh;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin: 25px;
+    box-shadow: 10px 20px 6px #0f0f38;
+}
+.accordion-item{
+    box-shadow: -5px -8px 5px greenyellow;
+}
+
+@media screen and (min-width: 570px){
+    .carousalscontainer{
+        margin: 50px;
+    }
+    .cardcontainer{
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+        justify-content: space-between;
+    }
+    
+}
