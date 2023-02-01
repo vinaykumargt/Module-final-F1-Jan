@@ -27,7 +27,7 @@
     box-shadow: -5px -8px 5px greenyellow;
 }
 
-@media screen and (min-width: 570px){
+@media screen and (min-width: 968px){
     .carousalscontainer{
         margin: 50px;
     }
